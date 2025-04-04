@@ -9,6 +9,7 @@ body {
     display: flex;
     font-size: 28px;
     color: #000000;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .verhpanel {
