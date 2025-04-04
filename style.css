@@ -1,4 +1,13 @@
 body {
   text-align: center;
-  display: 650px;
+}
+@media (orientation: landscape) {
+  body {
+    display: 650px;
+  }
+}
+@media (orientation: portrait) {
+  body {
+    display: 350px;
+  }
 }
