@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://unpkg.com/xp.css">
     <style>
         body {
+            flex-direction: column; /* если нужен вертикальный флекс */
+            max-width: 800px; /* фиксированная ширина */
+            width: 100%; /* чтобы не выходило за границы на маленьких экранах */
+            margin: auto;
+            min-height: 100vh; /* если нужно занять всю высоту экрана */
             text-align: center;
             display: flex;
             font-size: 28px;
