@@ -6,7 +6,12 @@
     <meta name="title" content="арты дымки" />
     <title>арты дымки</title>
     <link rel="stylesheet" href="https://unpkg.com/xp.css">
-    <link rel="stylesheet" href="/dymkaArts/style.css">
+    <script>
+        const link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.href = `https://lgor360.github.io/dymkaArts/style.css?nocache=` + new Date().getTime();
+        document.head.appendChild(link);
+    </script>
 </head>
 <body>
     <div class="verhpanel">
