@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  font-size: 20px;
 }
 @media (orientation: landscape) {
   body {
@@ -8,6 +9,6 @@ body {
 }
 @media (orientation: portrait) {
   body {
-    display: 350px;
+    display: 250px;
   }
 }
